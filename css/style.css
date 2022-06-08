@@ -1,3 +1,7 @@
+body {
+  margin: 85px;
+}
+
 h1, div, h3, h4, h6 {
  text-align: center;
  font-size: 30px;
