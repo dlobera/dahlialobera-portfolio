@@ -2,6 +2,14 @@ body {
   margin: 85px;
 }
 
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+.aboutMe {
+  font-size: 10px;
+}
+
 h1, div, h3, h4, h6 {
  text-align: center;
  font-size: 30px;
@@ -9,6 +17,7 @@ h1, div, h3, h4, h6 {
 h1 {
   font-family: 'Rock Salt', cursive;
 }
+
 .headshot {
   border-radius: 50%;
   display: block;
@@ -25,6 +34,13 @@ h2, p {
 h5 {
   text-align: center;
   font-size: 30px;
+}
+
+.resume {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
 }
 
 .tictactoe {
