@@ -51,9 +51,12 @@ h5 {
   margin-right: auto;
   width: 800px;
 }
-#top {
-  border-radius: 5%;
+
+.connect {
+  align-items: center;
+  display: row;
 }
+
 .btnTop {
   max-height: 30px;
   max-width: 30px;
