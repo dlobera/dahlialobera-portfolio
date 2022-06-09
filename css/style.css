@@ -4,6 +4,10 @@ body {
   background-size: cover;
 }
 
+.dropdown {
+  color: black
+}
+
 h2 {
   display: flexbox;
   text-align: center;
