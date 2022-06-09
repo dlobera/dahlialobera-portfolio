@@ -28,3 +28,11 @@ scrollUp.addEventListener('click', () => {
     behavior: 'smooth'
   });
 })
+
+
+const clickInto = document.getElementById('res')
+
+clickInto.addEventListener('click', () => {
+  let resume = html2pdf('res');
+});
+// var element = document.getElementById('res');
