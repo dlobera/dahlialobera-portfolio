@@ -1,5 +1,6 @@
 body {
   margin: 85px;
+  background-image: url('https://imgur.com/hJg5d6K');
 }
 
 h2 {
@@ -8,7 +9,7 @@ h2 {
   font-size: 30px;
 }
 .aboutMe {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 h1, div, h3, h4, h6 {
@@ -56,5 +57,4 @@ h5 {
 .btnTop {
   max-height: 30px;
   max-width: 30px;
- 
 }
