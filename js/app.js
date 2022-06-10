@@ -5,7 +5,7 @@ import {projects} from '../data/work.js'
 
 let projectMarkup = projects.map(project =>
  `
-  <div class='card text-center' style="width: 18rem;">
+  <div class='card text-center' style="width: 420px;">
     <img src="${project.image}" class="card-img-top" alt="...">
     <div class="card-body">
         <h5 class="card-title">${project.title}</h5>

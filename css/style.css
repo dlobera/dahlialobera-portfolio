@@ -18,6 +18,7 @@ h2 {
 }
 
 div, h3, h4, h6 {
+font-family: 'Rock Salt', cursive;
  text-align: center;
  font-size: 30px;
 }
@@ -44,6 +45,7 @@ h2 {
 }
 
 h5 {
+  font-family: 'Rock Salt', cursive;
   text-align: center;
   font-size: 30px;
   padding: 50px;
@@ -95,20 +97,22 @@ h5 {
   padding: 50px;
 }
 
-#projectContainer {
-  display: block;
-  margin-left: auto;
-  width: 800px;
+#projectContainer { 
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  padding: 50px;
+  vertical-align: middle;
+  font-family:'Times New Roman', Times, serif;
+  /* margin-left: auto;
+  margin-right: auto;  */
+  /* width: 300px;  */
 }
-
-
 .connect {
-  align-items: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
+  padding:100px;
+  font-size: 100px;
 }
+
 
 .btnTop {
   max-height: 30px;
