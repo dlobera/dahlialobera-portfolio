@@ -1,15 +1,15 @@
 const skills = [
   {
     title: 'HTML',
-    image:'./assets/tictactoe.png',
+    image:'./assets/html.png',
   },
   {
     title:'CSS',
-    image:'./assets/tictactoe.png',
+    image:'./assets/css.png',
   },
   {
     title:'Javascript',
-    image:'./assets/tictactoe.png',
+    image:'./assets/js.png',
   },
 ]
 
