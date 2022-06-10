@@ -3,25 +3,14 @@ body {
   background-image: url('../assets/Untitled_Artwork.png');
   background-size: cover;
 }
-
 .dropdown {
   color: black;
 }
-
 h2 {
-  vertical-align: middle;
   font-size: 30px;
   font-family: 'Rock Salt', cursive;
-  /* margin: 250px;
-  position: relative;
-  align-items: center; */
 }
 
-.about {
-  position: relative;
-  margin: auto;
-  z-index: 100;
-}
 #austin {
   max-width: 600px;
   position: relative;
@@ -33,7 +22,6 @@ h2 {
   font-size: 20px;
   font-family:'Times New Roman', Times, serif;
 }
-
 div, h3, h4, h6 {
 font-family: 'Rock Salt', cursive;
  text-align: center;
@@ -44,7 +32,6 @@ h1 {
   font-size: 50px;
   padding: 20px;
 }
-
 .headshot {
   border-radius: 50%;
   display: block;
@@ -53,8 +40,6 @@ h1 {
   width: 300px;
   padding: 20px;
 }
-
-
 h5 {
   font-family: 'Rock Salt', cursive;
   text-align: center;
@@ -68,16 +53,13 @@ h5 {
   font-family:'Times New Roman', Times, serif;
   color: white;
 }
-
 #slideshow-container {
   max-width: 325px;
   position: relative;
   margin: auto;
   z-index: 100;
 }
-
 .mySlides {display: contents;}
-
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -87,11 +69,9 @@ h5 {
   width: 100%;
   text-align: center;
 }
-
 .skillsImage {
   vertical-align: middle;
 }
-
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -99,7 +79,6 @@ h5 {
   position: absolute;
   top: 0;
 }
-
 .resume {
   display: block;
   margin-left: auto;
@@ -107,7 +86,6 @@ h5 {
   width: 800px;
   padding: 50px;
 }
-
 #projectContainer { 
   display: flex;
   flex-wrap: wrap;
@@ -115,19 +93,15 @@ h5 {
   padding: 30px;
   vertical-align: middle;
   font-family:'Times New Roman', Times, serif;
-  
 }
 .connect {
   padding:100px;
   font-size: 100px;
 }
-
-
 .btnTop {
   max-height: 30px;
   max-width: 30px;
 }
-
 @media only screen and (max-width: 600px) {
   #austin {
     display: none
