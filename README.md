@@ -28,3 +28,5 @@ My portfolio is a webpage that allows you to navigate through different sections
 <div></div>
 
 <h3>Whats Next?</h3>
+<ul>I will further work on adding more interaction to my page.</ul>
+<ul>I will make it line up more with the theme of a garden to represent growth.</ul>
