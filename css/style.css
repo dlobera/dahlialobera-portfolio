@@ -42,24 +42,66 @@ h5 {
   text-align: center;
   font-size: 30px;
 }
+#res {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+}
 
-.resumePNG {
+#slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  z-index: 100;
+}
+
+.mySlides {display: contents;}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.skillsImage {
+  vertical-align: middle;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.resume {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 800px;
+  padding: 50px;
 }
 
-.tictactoe {
+#projectContainer {
   display: block;
   margin-left: auto;
-  margin-right: auto;
   width: 800px;
 }
+
 
 .connect {
   align-items: center;
-  display: row;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .btnTop {
