@@ -13,5 +13,18 @@ My portfolio is a webpage that allows you to navigate through different sections
 <div></div>
 
 <h2>Credits</h2>
-  •Bootstrap dropdown bar added.
-  •Orchid icon by Icons8.
+  <ul>•Bootstrap dropdown bar added.</ul>
+    <ul>•Orchid icon by Icons8.</ul>
+     <ul>•Font is Rocksalt by Google fonts.</ul>
+       <ul>•Automatic slideshow container from W3.</ul>
+         <ul>•Media queries from W3.</ul>
+            <ul>•Austin Skyline Image from PNGKey.</ul>
+            <ul>•Icons from Ionic Icons</ul>
+            <ul>•html,css and javascript photos from elharrahfonts.</ul>
+            <ul>•Trello for Planning.</ul>
+            <ul>•Whimsical for wireframe.</ul>
+            <ul></ul>
+
+<div></div>
+
+<h3>Whats Next?</h3>

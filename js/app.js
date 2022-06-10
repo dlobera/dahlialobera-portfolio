@@ -71,8 +71,3 @@ scrollUp.addEventListener('click', () => {
 })
 
 
-const clickInto = document.getElementById('res')
-
-clickInto.addEventListener('click', () => {
-  let resume = html2pdf('res');
-});
