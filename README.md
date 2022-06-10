@@ -4,8 +4,12 @@ My portfolio is a webpage that allows you to navigate through different sections
 <a href="https://dahlialobera-portfolio.netlify.app/">Navigate to my portfolio here.</a>
 <div></div>
 <h1>Technologies added.<h1>
-  <p>
-  Bootstrap dropdown bar added.
-  Orchid icon by Icons8.
-  </p>
+  <ul>
+    <ls>CSS</ls>
+    <ls>HTML</ls>
+    <ls>Javascript</ls>
+    <ls>Git</ls>
+  </ul>
 
+Bootstrap dropdown bar added.
+Orchid icon by Icons8.
