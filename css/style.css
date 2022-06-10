@@ -9,12 +9,23 @@ body {
 }
 
 h2 {
-  display: flexbox;
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 30px;
+  font-family: 'Rock Salt', cursive;
+  /* margin: 250px;
+  position: relative;
+  align-items: center; */
+}
+
+.about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #austin {
-  max-width: 490px;
+  max-width: 600px;
   position: relative;
   margin: auto;
   z-index: 100;
@@ -22,7 +33,7 @@ h2 {
 }
 .aboutMe {
   font-size: 20px;
-  font-family:'Times New Roman', Times, serif
+  font-family:'Times New Roman', Times, serif;
 }
 
 div, h3, h4, h6 {
@@ -45,24 +56,18 @@ h1 {
   padding: 20px;
 }
 
-h2 {
-  font-family: 'Rock Salt', cursive;
-  display: flexbox;
-  justify-content: flex-end;
-  margin: 250px;
-}
 
 h5 {
   font-family: 'Rock Salt', cursive;
   text-align: center;
   font-size: 30px;
-  padding: 50px;
+  padding: 30px;
 }
 #res {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Courier New', Courier, monospace;
+  font-family:'Times New Roman', Times, serif;
   color: white;
 }
 
@@ -109,12 +114,10 @@ h5 {
   display: flex;
   flex-wrap: wrap;
   align-self: center;
-  padding: 50px;
+  padding: 30px;
   vertical-align: middle;
   font-family:'Times New Roman', Times, serif;
-  /* margin-left: auto;
-  margin-right: auto;  */
-  /* width: 300px;  */
+  
 }
 .connect {
   padding:100px;
@@ -125,4 +128,13 @@ h5 {
 .btnTop {
   max-height: 30px;
   max-width: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  #austin {
+    display: none
+  }
+  .resume {
+    display: none;
+  }
 }
