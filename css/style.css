@@ -9,9 +9,7 @@ body {
 }
 
 h2 {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  vertical-align: middle;
   font-size: 30px;
   font-family: 'Rock Salt', cursive;
   /* margin: 250px;
@@ -20,9 +18,9 @@ h2 {
 }
 
 .about {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative;
+  margin: auto;
+  z-index: 100;
 }
 #austin {
   max-width: 600px;
