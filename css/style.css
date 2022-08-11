@@ -34,9 +34,9 @@ h4 {
   padding:30px;
 }
 div, h3, h4, h6 {
-font-family: 'Rock Salt', cursive;
- text-align: center;
- font-size: 30px;
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  font-size: 30px;
 }
 h1 {
   font-family: 'Rock Salt', cursive;
@@ -99,12 +99,19 @@ h5 {
 }
 #projectContainer { 
   display: flex;
-  flex-wrap: wrap;
-  align-self: center;
+  flex-direction: row;
   padding: 30px;
-  vertical-align: middle;
   font-family:'Times New Roman', Times, serif;
 }
+.card-body {
+  font-size: 10px;
+  /* max-height: 100px; */
+}
+.card-img-top {
+  /* height: 174.69; */
+  max-width: 350px;
+}
+
 .connect {
   padding:100px;
   font-size: 100px;
@@ -112,6 +119,9 @@ h5 {
 .btnTop {
   max-height: 30px;
   max-width: 30px;
+}
+a {
+  color: antiquewhite;
 }
 @media only screen and (max-width: 600px) {
   #austin {

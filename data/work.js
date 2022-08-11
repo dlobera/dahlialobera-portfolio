@@ -13,6 +13,13 @@ const projects = [
     githubLink: 'https://github.com/dlobera/kitchen-collective',
     deploymentLink: 'https://kitchen-collective.herokuapp.com//',
   },
+  {
+    title: 'In The City',
+    image: './assets/inthecity.png',
+    description: 'An App to document things todo in different cities.',
+    githubLink: 'https://github.com/dlobera/dahliainthecity.git',
+    deploymentLink: 'https://dahliainthecity.herokuapp.com/',
+  },
 ]
 
 export {
