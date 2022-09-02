@@ -20,6 +20,9 @@ nav {
   width: 100%;
   overflow: hidden;
 }
+.dahl {
+  font-size: 28px;
+}
 .ab {
   color: black;
   margin-right: 30px;
