@@ -14,6 +14,27 @@ body {
   display: flex;
   flex-direction: row;
   font-family: 'Courier New', Courier, monospace;
+  background-color: gray;
+}
+.ab {
+  color: black;
+  margin-right: 20px;
+}
+.re {
+  color: black;
+  margin-right: 20px;
+}
+.sk {
+  color: black;
+  margin-right: 20px;
+}
+.pr {
+  color: black;
+  margin-right: 20px;
+}
+.co {
+  color: black;
+  margin-right: 20px;
 }
 h2 {
   font-size: 30px;
