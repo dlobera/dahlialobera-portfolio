@@ -6,35 +6,45 @@ body {
 .dropdown {
   color: black;
 }
-.navbar {
-  background-color: gray;
+nav {
   width: 100%;
 }
 .navit {
   display: flex;
   flex-direction: row;
   font-family: 'Courier New', Courier, monospace;
-  background-color: gray;
+  background-color: #e7e1ca66;
+  position: fixed;
+  top: 0px;
+  margin: 0 0 0 0;
+  width: 100%;
+  overflow: hidden;
 }
 .ab {
   color: black;
-  margin-right: 20px;
+  margin-right: 30px;
+  margin-left: 90px;
+  text-decoration: none;
 }
 .re {
   color: black;
-  margin-right: 20px;
+  margin-right: 30px;
+  text-decoration: none;
 }
 .sk {
   color: black;
-  margin-right: 20px;
+  margin-right: 30px;
+  text-decoration: none;
 }
 .pr {
   color: black;
-  margin-right: 20px;
+  margin-right: 30px;
+  text-decoration: none;
 }
 .co {
   color: black;
-  margin-right: 20px;
+  margin-right: 30px;
+  text-decoration: none;
 }
 h2 {
   font-size: 30px;
