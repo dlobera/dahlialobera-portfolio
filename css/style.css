@@ -6,47 +6,30 @@ body {
 .dropdown {
   color: black;
 }
-nav {
+/* nav {
   width: 100%;
-}
+} */
 .navit {
   display: flex;
   flex-direction: row;
   font-family: 'Courier New', Courier, monospace;
   background-color: #e7e1ca66;
-  position: fixed;
-  top: 0px;
-  margin: 0 0 0 0;
-  width: 100%;
-  overflow: hidden;
+  justify-content: right;
+  /* width: 100%; */
+  /* position: fixed; */
+  /* top: 0px; */
+  /* margin: 0 0 0 0; */
+  /* overflow: hidden; */
 }
 .dahl {
   font-size: 28px;
 }
 .ab {
+  display: flex;
+  text-align: right;
   color: black;
   margin-right: 30px;
-  margin-left: 90px;
-  text-decoration: none;
-}
-.re {
-  color: black;
-  margin-right: 30px;
-  text-decoration: none;
-}
-.sk {
-  color: black;
-  margin-right: 30px;
-  text-decoration: none;
-}
-.pr {
-  color: black;
-  margin-right: 30px;
-  text-decoration: none;
-}
-.co {
-  color: black;
-  margin-right: 30px;
+  /* margin-left: 90px; */
   text-decoration: none;
 }
 h2 {
