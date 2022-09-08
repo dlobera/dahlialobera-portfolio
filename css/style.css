@@ -9,13 +9,19 @@ body {
 /* nav {
   width: 100%;
 } */
+.naveel {
+  background-color: #e7e1ca66;
+  /* position:relative; */
+  top: 0px;
+  margin: 0 0 0 0;
+}
 .navit {
   display: flex;
   flex-direction: row;
   font-family: 'Courier New', Courier, monospace;
   background-color: #e7e1ca66;
   justify-content: right;
-  /* width: 100%; */
+  width: 100%;
   /* position: fixed; */
   /* top: 0px; */
   /* margin: 0 0 0 0; */
@@ -66,8 +72,10 @@ div, h3, h4, h6 {
 }
 h1 {
   font-family: 'Rock Salt', cursive;
-  font-size: 50px;
+  font-size: 20px;
   padding: 20px;
+  display: flex;
+  justify-content: left;
 }
 .headshot {
   border-radius: 50%;
