@@ -67,6 +67,7 @@ h3 {
   text-align: center;
   padding: 50px;
   background-color: aqua;
+  margin-bottom: 100px;
 }
 #austin {
   max-width: 600px;
@@ -186,9 +187,9 @@ h5 {
   max-width: 40px;
   
 }
-a {
+/* a {
   color: antiquewhite;
-}
+} */
 @media only screen and (max-width: 600px) {
   #austin {
     display: none
