@@ -11,9 +11,10 @@ body {
 } */
 .naveel {
   background-color: #e7e1ca66;
-  /* position:relative; */
-  top: 0px;
-  margin: 0 0 0 0;
+  position:relative;
+  padding-top: 0px;
+  width: 100;
+  /* margin: 0 0 0 0; */
 }
 .navit {
   display: flex;
@@ -37,6 +38,15 @@ body {
   margin-right: 30px;
   /* margin-left: 90px; */
   text-decoration: none;
+  font-size: 18px;
+}
+.dl {
+  display: flex;
+  /* justify-content: flex-start; */
+  /* margin-left: 0px; */
+  margin-right: 550px;
+  font-size: 25px;
+
 }
 h2 {
   font-size: 30px;
