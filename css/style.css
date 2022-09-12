@@ -6,27 +6,28 @@ body {
 .dropdown {
   color: black;
 }
-/* nav {
-  width: 100%;
-} */
 .naveel {
   background-color: #e7e1ca66;
-  position:relative;
+  /* position:relative; */
   padding-top: 0px;
   width: 100;
-  /* margin: 0 0 0 0; */
 }
 .navit {
   display: flex;
   flex-direction: row;
   font-family: 'Courier New', Courier, monospace;
   background-color: #e7e1ca66;
-  justify-content: right;
+  justify-content: flex-end;  
   width: 100%;
-  /* position: fixed; */
-  /* top: 0px; */
+  margin-left: -84px;
+  position: fixed;
+  top: 0px;
   /* margin: 0 0 0 0; */
-  /* overflow: hidden; */
+  overflow: hidden;
+}
+.dle {
+  display: flex;
+  justify-content: flex-start;
 }
 .dahl {
   font-size: 28px;
@@ -34,18 +35,28 @@ body {
 .ab {
   display: flex;
   text-align: right;
-  color: black;
+  /* justify-content: flex-end; */
   margin-right: 30px;
-  /* margin-left: 90px; */
-  text-decoration: none;
   font-size: 18px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+.ba {
+  text-decoration: none;
+}
+.dle {
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
 }
 .dl {
   display: flex;
-  /* justify-content: flex-start; */
+  justify-content: flex-start;
   /* margin-left: 0px; */
-  margin-right: 550px;
+  margin-right: 900px;
   font-size: 25px;
+  
 
 }
 h2 {
