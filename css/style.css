@@ -26,8 +26,16 @@ body {
   overflow: hidden;
 }
 .dle {
+  display: inline-block;
+  margin-top: 10px;
+}
+.dl {
   display: flex;
-  justify-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: start;
+  /* margin-right: 900px; */
+  font-size: 20px;
+
 }
 .dahl {
   font-size: 28px;
@@ -41,23 +49,10 @@ body {
   border-radius: 20px;
   background-color: black;
   color: white;
+  margin-top: 10px;
 }
 .ba {
   text-decoration: none;
-}
-.dle {
-  display: flex;
-  text-align: left;
-  justify-content: flex-start;
-}
-.dl {
-  display: flex;
-  justify-content: flex-start;
-  /* margin-left: 0px; */
-  margin-right: 900px;
-  font-size: 25px;
-  
-
 }
 h2 {
   font-size: 30px;
@@ -71,6 +66,7 @@ h3 {
 .about {
   text-align: center;
   padding: 50px;
+  background-color: aqua;
 }
 #austin {
   max-width: 600px;
@@ -103,8 +99,10 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+  width: 400px;
   padding: 20px;
+  position: relative;
+  margin-top: 170px;
 }
 h5 {
   font-family: 'Rock Salt', cursive;
@@ -118,6 +116,18 @@ h5 {
   margin-right: auto;
   font-family:'Times New Roman', Times, serif;
   color: white;
+}
+.res {
+  background-color: red;
+}
+.ski {
+  background-color: green;
+}
+.pro {
+  background-color: orange;
+}
+.con {
+  background-color: blue;
 }
 #slideshow-container {
   max-width: 325px;
@@ -172,8 +182,9 @@ h5 {
   font-size: 100px;
 }
 .btnTop {
-  max-height: 30px;
-  max-width: 30px;
+  max-height: 40px;
+  max-width: 40px;
+  
 }
 a {
   color: antiquewhite;
