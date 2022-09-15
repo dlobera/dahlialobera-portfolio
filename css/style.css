@@ -81,9 +81,9 @@ h4 {
   padding:30px;
 }
 div, h3, h4, h6 {
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
   text-align: center;
-  font-size: 30px;
 }
 h1 {
   font-family: 'Rock Salt', cursive;
@@ -131,7 +131,10 @@ h5 {
   background-color: red;
 }
 .ski {
-  background-color: green;
+  margin-top: 150px;
+  margin-bottom: 170px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
 }
 .pro {
   background-color: orange;
@@ -140,7 +143,7 @@ h5 {
   background-color: blue;
 }
 #slideshow-container {
-  max-width: 325px;
+  width: 225px;
   position: relative;
   margin: auto;
   z-index: 100;
