@@ -7,7 +7,7 @@ const projects = [
     deploymentLink: 'https://antique-tictactoe.netlify.app/',
   },
   {
-    title: 'kitchen collective',
+    title: 'Kitchen Collective',
     image: './assets/kitchen.png',
     description: 'A collection of recipes to share between friends and family.',
     githubLink: 'https://github.com/dlobera/kitchen-collective',
