@@ -137,10 +137,25 @@ h5 {
   font-size: 50px;
 }
 .pro {
-  background-color: orange;
+  /* background-color: orange; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  padding: 30px;
+  /* margin-left: 30px; */
+  /* margin-right: 30px; */
+}
+#projects {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
 }
 .con {
-  background-color: blue;
+  margin-top: 150px;
+  margin-bottom: 170px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+}
+.connect {
+  color: black;
 }
 #slideshow-container {
   width: 225px;
@@ -184,7 +199,10 @@ h5 {
   display: flex;
   flex-direction: row;
   padding: 30px;
-  font-family:'Times New Roman', Times, serif;
+  margin-left: 30px;
+  margin-right: 30px;
+
+  /* font-family:'Times New Roman', Times, serif; */
 }
 .card-body {
   font-size: 10px;
@@ -197,16 +215,13 @@ h5 {
 
 .connect {
   padding:100px;
-  font-size: 100px;
+  font-size: 150px;
 }
 .btnTop {
   max-height: 40px;
   max-width: 40px;
   
 }
-/* a {
-  color: antiquewhite;
-} */
 @media only screen and (max-width: 600px) {
   #austin {
     display: none
