@@ -201,16 +201,29 @@ h5 {
   padding: 30px;
   margin-left: 30px;
   margin-right: 30px;
-
   /* font-family:'Times New Roman', Times, serif; */
+}
+.card {
+  margin-left: 30px;
+}
+.card-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
 }
 .card-body {
   font-size: 10px;
   /* max-height: 100px; */
 }
 .card-img-top {
-  /* height: 174.69; */
   max-width: 350px;
+}
+.card button {
+  background-color: black;
+}
+
+.card button a {
+  color: white;
+  text-decoration: none;
 }
 
 .connect {
@@ -220,7 +233,11 @@ h5 {
 .btnTop {
   max-height: 40px;
   max-width: 40px;
-  
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+
 }
 @media only screen and (max-width: 600px) {
   #austin {
