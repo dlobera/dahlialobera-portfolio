@@ -16,7 +16,7 @@ const projects = [
   {
     title: 'In The City',
     image: './assets/inthecity.png',
-    description: 'An App to document things todo in different cities.',
+    description: 'An App to document things to do in different cities.',
     githubLink: 'https://github.com/dlobera/dahliainthecity.git',
     deploymentLink: 'https://dahliainthecity.herokuapp.com/',
   },
