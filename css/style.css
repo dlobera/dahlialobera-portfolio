@@ -282,4 +282,13 @@ h5 {
     flex-direction: row;
     margin-left: 2px;
   }
+  .about {
+    font-size: 16px;
+  }
+  .aboutMe {
+    font-size: 12px;
+  }
+  #projectContainer {
+    width: 100px;
+  }
 }
