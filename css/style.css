@@ -246,4 +246,27 @@ h5 {
   .resume {
     display: none;
   }
+  .headshot {
+    width: 200px;
+    height: 200px;
+  }
+  .intro {
+    font-size: 15px;
+  }
+  .navit {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #e7e1ca66;
+    justify-content: flex-start;  
+    width: 100%;
+    margin-left: -84px;
+    position: fixed;
+    top: 0px;
+    overflow: hidden;
+  }
+  .ab {
+    font-size: 5px;
+    margin-right: 10px;
+  }
 }
